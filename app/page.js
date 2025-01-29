@@ -485,7 +485,7 @@ export default function Home() {
   return (
     <>
       <div className="w-[98%] flex items-center justify-center m-auto h-[98dvh] top-auto bottom-auto bg-gradient-to-t from-black to-indigo-800 rounded-xl">
-        <div className="w-10/12 m-auto">
+        <div className="w-11/12 md:w-10/12 m-auto">
           {selectedQuote && (
             <div className="text-center space-y-3">
               <h1
